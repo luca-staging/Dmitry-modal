@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 import colors from 'tailwindcss/colors'
-const icon = require('./public/favicon-125x125.svg')
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
