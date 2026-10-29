@@ -1,7 +1,6 @@
-import { useNavigate } from 'react-router-dom'
 import { ThemeToggle } from '../components/ThemeToggle'
-import { ConnectWalletButton } from '../components/ConnectWalletButton'
 import { Logo } from '../components/Logo'
+
 import { ConnectWalletButton } from 'wallet-connect-modal';
 import 'wallet-connect-modal/dist/wallets/phantom/styles.css';
 import 'wallet-connect-modal/dist/wallets/metamask/styles.css';
@@ -95,7 +94,6 @@ function PreviewFrame() {
 }
 
 export default function Login() {
-  const navigate = useNavigate()
 
   return (
     <div className="relative min-h-[300dvh] mesh-bg">
