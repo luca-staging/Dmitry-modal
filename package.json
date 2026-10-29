@@ -10,7 +10,6 @@
     "build": "npm run build:server && tsc -b && vite build",
     "build:frontend": "tsc -b && vite build",
     "build:server": "cd server && npx prisma generate && tsc",
-    "prepare": "npm run dev",
     "lint": "eslint .",
     "test": "echo \"No tests configured\" && exit 0",
     "preview": "vite preview",
